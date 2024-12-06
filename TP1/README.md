@@ -2,9 +2,9 @@
 Voici une rapide description des différentes fonctions du dossier (classées par ordre alphabétique)
 ```
 TP2/
-├── affiche.m : 
+├── affiche.m : affiche la solution 
 │   
-├── affichemaillage.m : 
+├── affichemaillage.m : affiche le maillage
 │   
 ├── erreur.m : simule plusieurs valeurs de h et trace des variations de l'erreur entre solution exacte et approchée
 │   

@@ -8,6 +8,7 @@
 * [Chemins](#chemins)
 * [Liens aux dossiers](#liens-aux-dossiers)
 * [Utilisation de gmsh](#utilisation-de-gmsh)
+* [Octave comme alternative à Matlab](#octave-comme-alternative-à-Matlab)
 
 ## Chemins 
 ```
@@ -30,17 +31,17 @@ Upgraded_Chess_Engine/
     * [Rapport](./Chess_Engine/Rapport/) : le rapport et les résultats du TP
 
 ## Utilisation de gmsh
-#### télécharger l'outil de ligne de commande 
+#### Télécharger l'application
 Voic le lien pour télécharger gmsh et ainsi pouvoir faire, modifier des maillages : http://gmsh.info
-
+#### Télécharger l'outil de ligne de commande 
 J'ai aussi installé l'outil de ligne de commande avec homebrew, étant sur MacOs, la procédure peut changer sur windows
 ```
 brew install gmsh
 ```
+#### Utiliser l'outil de ligne de commande
 Maintenant, pour l'utiliser, j'ai utilisé une commande Matlab, qui permet d'actualiser le maillage, après avoir par exemple modifier le nombre de noeuds (voir le TP2 et les codes d'automatisation du changement du paramètre h du maillage) (le chemin à l'outil gmsh changera bien sûr sur une machine Windows)
 ```
 system('/opt/homebrew/bin/gmsh geomRectangle_partie3_marche.geo -2 -order 2 -o geomRectangle_partie3_marche.msh');
 ```
 
-
-####
+## Octave comme alternative à Matlab 

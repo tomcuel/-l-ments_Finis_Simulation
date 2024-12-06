@@ -32,9 +32,15 @@ Upgraded_Chess_Engine/
 ## Utilisation de gmsh
 #### télécharger l'outil de ligne de commande 
 Voic le lien pour télécharger gmsh et ainsi pouvoir faire, modifier des maillages : http://gmsh.info
+
 J'ai aussi installé l'outil de ligne de commande avec homebrew, étant sur MacOs, la procédure peut changer sur windows
 ```
 brew install gmsh
 ```
+Maintenant, pour l'utiliser, j'ai utilisé une commande Matlab, qui permet d'actualiser le maillage, après avoir par exemple modifier le nombre de noeuds (voir le TP2 et les codes d'automatisation du changement du paramètre h du maillage) (le chemin à l'outil gmsh changera bien sûr sur une machine Windows)
+```
+system('/opt/homebrew/bin/gmsh geomRectangle_partie3_marche.geo -2 -order 2 -o geomRectangle_partie3_marche.msh');
+```
+
 
 ####

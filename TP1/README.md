@@ -18,3 +18,4 @@ TP2/
 │   
 └── principal_neumann : pour un h donné, "main" qui renvoie les solutions exactes, approchées, les erreurs et des graphiques
 ```
+Pour lancer le fichier principal, il faut bien regarder les arguments et leurs nombres, en effet, on peut choisir ce que l'on veut afficher, calculer, …

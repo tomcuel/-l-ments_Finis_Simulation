@@ -40,6 +40,12 @@ Maintenant, pour l'utiliser, j'ai utilisé une commande Matlab, qui permet d'act
 ```
 system('/opt/homebrew/bin/gmsh geomRectangle_partie3_marche.geo -2 -order 2 -o geomRectangle_partie3_marche.msh');
 ```
+#### Un résultat pour montrer l'impact de la commande 
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="./TP2/Rapport/Résultats/Maillage/Premier_maillage_ordre2.png" alt="Color Choice Screenshot" width="350" height="225"/>
+  <img src="../TP2/Rapport/Résultats/Maillage/visu_maillage_ordre2.png" alt="Another Screenshot" width="350" height="225"/>
+</div>
+
 
 ## Octave comme alternative à Matlab 
 On peut télécharger Octave qui est gratuit comparé à Matlab en choisissant la méthode qui correspond à notre matériel : https://octave.org/download

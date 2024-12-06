@@ -1,5 +1,5 @@
 # Éléments Finis Simulation
-> Le premier TP se focalise sur l'implémentation basique de la méthode des éléments finis sur une équation de poisson, lorsque le deuxième TP va bien plus loin en permettant de simuler l'écoulement d'un fluide visqueux incompressible et stationnaire dans un canal bidimensionnel avec une modélisation par des équations de stockes, avec bien plus de paramètres, de conditions aux limites à prendre en compte
+> Le premier TP se focalise sur l'implémentation basique de la méthode des éléments finis sur une équation de poisson, lorsque le deuxième TP va bien plus loin en permettant de simuler l'écoulement d'un fluide visqueux incompressible et stationnaire dans un canal bidimensionnel avec une modélisation par des équations de stockes, avec bien plus de paramètres, de conditions aux limites à prendre en compte, et même à la fin une marche à l'entrée de ce canal
 
 #### Sommaire 
 * [Chemins](#chemins)
